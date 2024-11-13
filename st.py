@@ -17,7 +17,7 @@ def main():
     st.title('Sales Prediction Web Application (Streamlit)')
 
     # Get user inputs and convert to numeric types
-    #try:
+    try:
         Item_Weight = float(st.text_input ('Item Weight(ex:9.3)'))
         Item_Fat_Content = float(st.text_input ('Item_Fat_Content(ex: Low Fat)'))
         Item_Visibility = float(st.text_input ('Item_Visibility (ex:0.16)'))
@@ -26,7 +26,7 @@ def main():
         Outlet_Size = float(st.text_input('Outlet_Size (ex: Medium)'))
         Outlet_Location_Type = float(st.text_input ('Outlet_Location_Type(ex: Tier 1)'))
         Outlet_Type = float(st.text_input ('Outlet_Type(ex: Supermarket)'))
-   # except ValueError:
+   except ValueError:
        # st.write("")
 
     if st.button('Click here..'):
