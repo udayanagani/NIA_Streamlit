@@ -26,7 +26,7 @@ def main():
         Outlet_Size = float(st.text_input('Outlet_Size (ex: Medium)'))
         Outlet_Location_Type = float(st.text_input ('Outlet_Location_Type(ex: Tier 1)'))
         Outlet_Type = float(st.text_input ('Outlet_Type(ex: Supermarket)'))
-   except ValueError:
+     except ValueError:
         st.write("")
 
     if st.button('Click here..'):
