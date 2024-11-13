@@ -27,7 +27,7 @@ def main():
         Outlet_Location_Type = float(st.text_input ('Outlet_Location_Type(ex: Tier 1)'))
         Outlet_Type = float(st.text_input ('Outlet_Type(ex: Supermarket)'))
    except ValueError:
-       # st.write("")
+       st.write("")
 
     if st.button('Click here..'):
         with st.spinner('Please wait...'):
