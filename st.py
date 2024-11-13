@@ -18,14 +18,14 @@ def main():
 
     # Get user inputs and convert to numeric types
     try:
-        Item_Weight = float(st.text_input('Item Weight(ex:0.6)'))
-        Item_Fat_Content = float(st.text_input('Item_Fat_Content(ex:1)'))
-        Item_Visibility = float(st.text_input('Item_Visibility(ex:0.8)'))
-        Item_Type = float(st.text_input('Item_Type(ex:2)'))
-        Item_MRP = float(st.text_input('Item_MRP(ex:3)'))
-        Outlet_Size = float(st.text_input('Outlet_Size(ex:5)'))
-        Outlet_Location_Type = float(st.text_input('Outlet_Location_Type(ex:25)'))
-        Outlet_Type = float(st.text_input('Outlet_Type(ex:5)'))
+        Item_Weight = float(st.text_input ('Item Weight(ex:8.5)'))
+        Item_Fat_Content = float(st.text_input ('Item_Fat_Content(ex:Low Fat)'))
+        Item_Visibility = float(st.text_input ('Item_Visibility (ex:0.18)'))
+        Item_Type = float(st.text_input ('Item_Type (ex:Dairy)'))
+        Item_MRP = float(st.text_input ('Item_MRP(ex:249.7)'))
+        Outlet_Size = float(st.text_input ('Outlet_Size(ex:Medium)'))
+        Outlet_Location_Type = float(st.text_input ('Outlet_Location_Type(ex:Tier 1)'))
+        Outlet_Type = float(st.text_input ('Outlet_Type(ex:Supermarket)'))
     except ValueError:
         st.write("")
 
